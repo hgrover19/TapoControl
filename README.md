@@ -3,8 +3,6 @@
 Control TP-Link Tapo smart bulbs from your Mac's menu bar. It talks to the bulbs directly over your
 home network, with no cloud or hub.
 
-![TapoControl's menu bar panel](docs/screenshot.png)
-
 ## Features
 
 - Turn bulbs on or off, one at a time or all at once
@@ -15,7 +13,7 @@ home network, with no cloud or hub.
 ## Requirements
 
 - macOS 26 or later, and Xcode to build it
-- Tapo bulbs on the same network as your Mac (tested with the L530)
+- Tapo bulbs on the same network as your Mac
 - **Third-Party Compatibility** turned on in the Tapo app: Me → Third-Party Services
 
 ## Getting started
@@ -28,14 +26,6 @@ home network, with no cloud or hub.
 
 To keep it installed without Xcode: Product → Archive → Distribute App → Custom → Copy App. Then move
 the app to Applications and turn on **Launch at login** in its Settings.
-
-## Troubleshooting
-
-| Problem | Fix |
-| --- | --- |
-| "Can't reach" a bulb | Check its IP in Settings, and turn on TapoControl under System Settings → Privacy & Security → Local Network. |
-| "Refused the local login (HTTP 403)" | In the Tapo app, turn Third-Party Compatibility off and on again. |
-| "Rejected the email or password" | Settings → Change login. |
 
 ## How it works
 
