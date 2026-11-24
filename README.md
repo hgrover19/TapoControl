@@ -2,6 +2,7 @@
 
 Control TP-Link Tapo smart bulbs from your Mac's menu bar. It talks to the bulbs directly over your
 home network, with no cloud or hub.
+
 <img width="348" height="446" alt="Screenshot 2026-11-23 at 10 45 17 PM" src="https://github.com/user-attachments/assets/23a28c4b-6841-438f-ac3f-c4c33c367901" />
 
 
